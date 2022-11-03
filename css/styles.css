@@ -1,0 +1,48 @@
+body {
+
+    background-image: url("../images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.header {
+
+    padding: 5% 0 10% 0;
+}
+
+.attribution {
+    padding: 8% 0;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.btn-rounded {
+
+    border-radius: 25px;
+    padding: 10px 100px;
+    background-color: hsl(300, 69%, 71%);
+    border: none;
+}
+
+.btn-rounded:hover {
+
+    background-color: #FFF;
+    border: 1px solid hsl(300, 69%, 71%);
+    color: hsl(257, 40%, 49%);
+}
+
+.contact-icons {
+
+    font-size: 1.9rem;
+    float: right;
+}

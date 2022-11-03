@@ -1,6 +1,7 @@
 body {
 
     background-image: url("../images/bg-desktop.svg");
+    background-size: cover;
     background-color: hsl(257, 40%, 49%);
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
@@ -14,9 +15,25 @@ h2 {
 
 }
 
+a,
+a:link {
+    color: #FFF;
+}
+
+a:hover {
+
+    background-color: hsl(257, 40%, 49%);
+    color: hsl(300, 69%, 71%);
+}
+
 .header {
 
     padding: 5% 0 10% 0;
+}
+
+.main-text {
+
+    line-height: 1.8;
 }
 
 .attribution {
@@ -45,4 +62,45 @@ h2 {
 
     font-size: 1.9rem;
     float: right;
+    text-align: right;
+}
+
+.contact-icons a {
+
+    margin-left: 20px;
+}
+
+@media (max-width:1397px) {
+
+    body {
+
+        text-align: center;
+
+    }
+
+    .contact-icons {
+
+        text-align: center;
+        padding: 5% 0;
+    }
+
+    .mockup-img {
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container {
+
+        padding: 0 10%;
+    }
+
+}
+
+@media(max-width:375px) {
+
+    body {
+        background-image: url("../images/bg-mobile.svg");
+    }
+
 }
